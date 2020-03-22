@@ -1,0 +1,26 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "employTrack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidaguilar619/employeeTracker.git"
+  },
+  "author": "said",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saidaguilar619/employeeTracker/issues"
+  },
+  "homepage": "https://github.com/saidaguilar619/employeeTracker#readme",
+  "dependencies": {
+    "console": "^0.7.2",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "jest": "^25.1.0",
+    "mysql": "^2.18.1"
+  }
+}
