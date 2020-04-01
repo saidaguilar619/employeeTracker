@@ -1,38 +1,41 @@
 USE employee_db;
 
-/* Insert 4 Rows into your new table */
+/* Insert 4 Rows into table */
 INSERT INTO department (name)
-VALUES ("System Services"),
-	("Information Technology"),
+VALUES ("Admin"),
+	("Sales"),
     ("Finance"),
-    ("Product Services")
-    ;
+    ("Product Services");
 
-/* Insert 11 Rows into your new table */
+/* Insert 7 Rows into table */
 INSERT INTO role (title, salary, department_id)
-VALUES ("Developer", 8000.00, 2),
-	("Engineer", 9500.00, 2),
-    ("Financial Analyst", 6000.00, 3),
-    ("Manager", 8000.00, 1),
-    ("Salesman", 3000.00, 4),
-    ("Vice President", 12000.00, 1),
-    ("Vice President", 13000.00, 2),
-    ("Director", 105000.00, 3),
-    ("Admin", 40000.00, 1),
-    ("President", 15000.00, 1),
-    ("Analyst", 15000.00, 2);
+VALUES ("Developer", 78000.00, 4),
+    ("Director", 99000.00, 1),
+    ("Salesman", 45000.00, 2),
+	("Engineer", 90000.00, 4),
+    ("Financial Analyst", 56000.00, 3),
+    ("Accountant", 66000.00, 3),
+    ("Manager", 66000.00, 1);
     
-
+/* Insert 19 Rows into new table */
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Kayling", "Blaze", 1, 2),
-	("Jonas", "Wade", 3, 7),
-    ("Kayling", "Blaze", 2, 5),
-    ("Scarlet", "Lane", 1, 3),
-    ("Adelyn", "Mitchek", 4, 4),
-    ("Kayling", "Blaze", 5, 6),
-    ("Clare", "Jimenz", 2, 3),
-    ("Frank", "Boss", 4, 2);
+VALUES ("Harrison", "Schaen", 2, 1),
+    ("Steph", "Huynh", 3, 1),
+    ("Steven", "Landgraf", 5, 1),
+    ("Daniel", "Angulo", 4, 1),
+    ("Said", "Aguilar", 1, 1),
+    ("Matthew", "Bell", 3, 1),
+    ("Julian", "Acosta", 3, 1),
+    ("Tyler", "Arthur", 3, 1),
+    ("Javier", "Banuelos", 3, 1),
+    ("Art", "Aragon", 3, 2),
+    ("Cara", "Bunnell", 5, 2),
+    ("Jaycee", "Bagtas", 6, 2),
+    ("Alexia", "Chalita", 5, 2),
+    ("Lizbeth", "Glasser", 4, 2),
+    ("Collin", "Kier", 4, 1),
+    ("Brian", "Monteverde", 3, 3),
+    ("Greg", "Schuman", 6, 3),
+    ("Amy", "Fabella", 5, 3),
+    ("Jason", "Riley", 6, 3);
 
-select * FROM employee;
-select * from department;
-select * from role;
